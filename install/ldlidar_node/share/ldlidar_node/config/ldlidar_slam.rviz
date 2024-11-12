@@ -146,7 +146,7 @@ Visualization Manager:
         Filter size: 1
         History Policy: System Default
         Reliability Policy: System Default
-        Value: /ldlidar_node/scan
+        Value: /scan
       Use Fixed Frame: true
       Use rainbow: true
       Value: true

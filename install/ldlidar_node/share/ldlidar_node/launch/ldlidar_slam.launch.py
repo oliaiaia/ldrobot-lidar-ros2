@@ -65,7 +65,7 @@ def generate_launch_description():
             slam_config_path # Parameters
           ],
           remappings=[
-              ('/scan', '/ldlidar_node/scan')
+              ('/scan', '/scan')
           ]          
     )
 
@@ -95,7 +95,7 @@ def generate_launch_description():
         name='rf2o_laser_odometry',
         output='screen',
         parameters=[{
-                    'laser_scan_topic' : '/ldlidar_node/scan',
+                    'laser_scan_topic' : '/scan',
                     'odom_topic' : '/odom',
                     'publish_tf' : True,
                     'base_frame_id' : 'base_link',
@@ -136,6 +136,6 @@ def generate_launch_description():
     ld.add_action(ldlidar_launch)
 
     # Start RVIZ2
-    ld.add_action(rviz2_node)
+    # ld.add_action(rviz2_node)
 
     return ld

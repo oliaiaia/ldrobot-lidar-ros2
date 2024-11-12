@@ -92,7 +92,7 @@ The node is now in the `INACTIVE` state, enter the following command to activate
 
     ros2 lifecycle set /lidar_node activate
     
-The node is now activated and the `/ldlidar_node/scan` topic of type `sensor_msgs/msg/LaserScan` is available to be subscribed.
+The node is now activated and the `/scan` topic of type `sensor_msgs/msg/LaserScan` is available to be subscribed.
 
 ### Launch file with YAML parameters
 
