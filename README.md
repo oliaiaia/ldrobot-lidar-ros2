@@ -102,7 +102,7 @@ Open a terminal console and enter the following command to start the node with c
 
     ros2 launch ldlidar_node ldlidar.launch.py
     
-The [`ldlidar.yaml`](ldlidar_node/config/ldlidar.yaml) script also starts a `robot_state_publisher` node that provides the static TF transform of the LDLidar [`ldlidar_base`->`ldlidar_link`], and provides the ldlidar description in the `/robot_description`.
+The [`ldlidar.yaml`](ldlidar_node/config/ldlidar.yaml) script also starts a `robot_state_publisher` node that provides the static TF transform of the LDLidar [`base_link`->`laser_link`], and provides the ldlidar description in the `/robot_description`.
 
 ![](./images/ldlidar_tf.png)
 
@@ -149,7 +149,7 @@ Open a terminal console and enter the following command:
 
 Follow the following procedure, to integrate the `ldlidar_node` in a robot configuration:
 
-* Provide a TF transform from `base_link` to `ldlidar_base`, that is placed in the center of the base of the lidar scanner. The `ldlidar_base` -> `ldlidar_link` transform is provided by the `robot_state_publisher` started by the `ldlidar.launch.py` launch file.
+* Provide a TF transform from `base_link` to `base_link`, that is placed in the center of the base of the lidar scanner. The `base_link` -> `laser_link` transform is provided by the `robot_state_publisher` started by the `ldlidar.launch.py` launch file.
 * Modify the [`ldlidar.yaml`](ldlidar_node/config/ldlidar.yaml) to match the configuration of the robot.
 * Include the [`ldlidar.launch.py`](ldlidar_node/launch/ldlidar.launch.py) in the bringup launch file of the robot. Follow the [provided example](#launch-file-with-yaml-parameters-and-lifecycle-manager).
 * Handle lifecycle to correctly start the node. You can use the Nav2 `lifecycle_manager`, by including it in the bringup launch file. Follow the [provided example](#launch-file-with-yaml-parameters-and-lifecycle-manager).

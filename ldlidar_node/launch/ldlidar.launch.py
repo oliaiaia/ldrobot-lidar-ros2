@@ -54,10 +54,10 @@ def generate_launch_description():
     )
 
     # URDF path
-    urdf_file_name = 'ldlidar_descr.urdf.xml'
+    urdf_file_name = 'sam_bot_description.urdf'
     urdf = os.path.join(
-        get_package_share_directory('ldlidar_node'),
-        'urdf',
+        get_package_share_directory('sam_bot_description'),
+        'src', 'description',
         urdf_file_name)
     with open(urdf, 'r') as infp:
         robot_desc = infp.read()
@@ -79,7 +79,7 @@ def generate_launch_description():
     ld.add_action(declare_node_name_cmd)
 
     # Launch Nav2 Lifecycle Manager
-    ld.add_action(rsp_node)
+    # ld.add_action(rsp_node)
 
     # LDLidar Lifecycle node
     ld.add_action(ldlidar_node)

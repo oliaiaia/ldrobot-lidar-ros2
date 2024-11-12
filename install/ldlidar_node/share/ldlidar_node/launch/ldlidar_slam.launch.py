@@ -86,7 +86,7 @@ def generate_launch_description():
     #     executable='static_transform_publisher',
     #     name='static_transform_publisher',
     #     output='screen',
-    #     arguments=['0', '0', '0', '0', '0', '0', 'odom', 'ldlidar_base']
+    #     arguments=['0', '0', '0', '0', '0', '0', 'odom', 'base_link']
     # )
 
     rf2o_odom = Node(
@@ -98,7 +98,7 @@ def generate_launch_description():
                     'laser_scan_topic' : '/ldlidar_node/scan',
                     'odom_topic' : '/odom',
                     'publish_tf' : True,
-                    'base_frame_id' : 'ldlidar_base',
+                    'base_frame_id' : 'base_link',
                     'odom_frame_id' : 'odom',
                     'init_pose_from_topic' : '',
                     'freq' : 10.0}],
@@ -130,7 +130,7 @@ def generate_launch_description():
     ld.add_action(rf2o_odom)
 
     # Launch SLAM Toolbox node
-    # ld.add_action(slam_toolbox_node)    
+    ld.add_action(slam_toolbox_node)    
 
     # Call LDLidar launch
     ld.add_action(ldlidar_launch)

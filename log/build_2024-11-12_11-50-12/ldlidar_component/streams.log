@@ -1,0 +1,52 @@
+[0.019s] Invoking command in '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_component': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_component -- -j20 -l20
+[0.127s] [ 70%] Built target ldlidar
+[0.186s] [ 80%] [32mBuilding CXX object CMakeFiles/ldlidar_component.dir/component/src/ldlidar_component.cpp.o[0m
+[13.023s] [ 90%] [32m[1mLinking CXX shared library libldlidar_component.so[0m
+[13.307s] [100%] Built target ldlidar_component
+[13.329s] Invoked command in '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_component' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_component -- -j20 -l20
+[13.412s] Invoking command in '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_component': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_component
+[13.425s] -- Install configuration: "Release"
+[13.425s] -- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/lib/libldlidar_component.so
+[13.426s] -- Set non-toolchain portion of runtime path of "/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/lib/libldlidar_component.so" to ""
+[13.426s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component/
+[13.427s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//ldlidar_component.hpp
+[13.427s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//defines.hpp
+[13.427s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component/
+[13.427s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//ldlidar_tools.hpp
+[13.427s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component/
+[13.427s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//visibility_control.hpp
+[13.427s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component/
+[13.428s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//ldlidar_driver.h
+[13.428s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//ldlidar_datatype.h
+[13.428s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component/
+[13.428s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//lipkg.h
+[13.428s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component/
+[13.428s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//tofbf.h
+[13.428s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component/
+[13.428s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//log_module.h
+[13.428s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component/
+[13.428s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//network_socket_interface_linux.h
+[13.428s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component/
+[13.429s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//serial_interface_linux.h
+[13.429s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/environment/library_path.sh
+[13.429s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/environment/library_path.dsv
+[13.429s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ament_index/resource_index/package_run_dependencies/ldlidar_component
+[13.429s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ament_index/resource_index/parent_prefix_path/ldlidar_component
+[13.429s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/environment/ament_prefix_path.sh
+[13.429s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/environment/ament_prefix_path.dsv
+[13.429s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/environment/path.sh
+[13.429s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/environment/path.dsv
+[13.430s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/local_setup.bash
+[13.430s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/local_setup.sh
+[13.430s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/local_setup.zsh
+[13.430s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/local_setup.dsv
+[13.430s] -- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/package.dsv
+[13.430s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ament_index/resource_index/packages/ldlidar_component
+[13.430s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ament_index/resource_index/rclcpp_components/ldlidar_component
+[13.430s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.431s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/cmake/ament_cmake_export_libraries-extras.cmake
+[13.431s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.431s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/cmake/ldlidar_componentConfig.cmake
+[13.431s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/cmake/ldlidar_componentConfig-version.cmake
+[13.431s] -- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/package.xml
+[13.433s] Invoked command in '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_component' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_component
