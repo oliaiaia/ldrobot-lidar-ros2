@@ -1,0 +1,22 @@
+[0.020s] Invoking command in '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_node': AMENT_PREFIX_PATH=/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component:/home/olia/ros2_ws/install/slam_gmapping:/home/olia/ros2_ws/install/slam_cartogr:/home/olia/ros2_ws/install/sam_bot_description:/home/olia/ros2_ws/install/rf2o_laser_odometry:/home/olia/ros2_ws/install/openslam_gmapping:/home/olia/ros2_ws/install/ldlidar:/home/olia/ros2_ws/install/ldlidar_node:/home/olia/ros2_ws/install/ldlidar_component:/home/olia/ros2_ws/install/explore_lite:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/olia/CLionProjects/ldrobot-lidar-ros2/ldlidar_node -DCMAKE_INSTALL_PREFIX=/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node
+[0.148s] -- The C compiler identification is GNU 13.2.0
+[0.289s] -- The CXX compiler identification is GNU 13.2.0
+[0.323s] -- Detecting C compiler ABI info
+[0.486s] -- Detecting C compiler ABI info - done
+[0.504s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.504s] -- Detecting C compile features
+[0.505s] -- Detecting C compile features - done
+[0.525s] -- Detecting CXX compiler ABI info
+[0.707s] -- Detecting CXX compiler ABI info - done
+[0.725s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.726s] -- Detecting CXX compile features
+[0.727s] -- Detecting CXX compile features - done
+[0.728s] --  * Release Mode
+[0.728s] -- * Found ROS2 jazzy
+[0.728s] [31mCMake Error at CMakeLists.txt:70 (message):
+[0.728s]   ROS2 jazzy is not officially supported by this package.  Correct working is
+[0.728s]   not guarantee.
+[0.728s] 
+[0.728s] [0m
+[0.728s] -- Configuring incomplete, errors occurred!
+[0.733s] Invoked command in '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_node' returned '1': AMENT_PREFIX_PATH=/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component:/home/olia/ros2_ws/install/slam_gmapping:/home/olia/ros2_ws/install/slam_cartogr:/home/olia/ros2_ws/install/sam_bot_description:/home/olia/ros2_ws/install/rf2o_laser_odometry:/home/olia/ros2_ws/install/openslam_gmapping:/home/olia/ros2_ws/install/ldlidar:/home/olia/ros2_ws/install/ldlidar_node:/home/olia/ros2_ws/install/ldlidar_component:/home/olia/ros2_ws/install/explore_lite:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/olia/CLionProjects/ldrobot-lidar-ros2/ldlidar_node -DCMAKE_INSTALL_PREFIX=/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node

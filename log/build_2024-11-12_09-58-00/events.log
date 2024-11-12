@@ -1,0 +1,339 @@
+[0.000000] (-) TimerEvent: {}
+[0.000387] (ldlidar_component) JobQueued: {'identifier': 'ldlidar_component', 'dependencies': OrderedDict()}
+[0.001482] (ldlidar_node) JobQueued: {'identifier': 'ldlidar_node', 'dependencies': OrderedDict({'ldlidar_component': '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component'})}
+[0.001880] (ldlidar) JobQueued: {'identifier': 'ldlidar', 'dependencies': OrderedDict({'ldlidar_component': '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component', 'ldlidar_node': '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node'})}
+[0.001941] (ldlidar_component) JobStarted: {'identifier': 'ldlidar_component'}
+[0.015661] (ldlidar_component) JobProgress: {'identifier': 'ldlidar_component', 'progress': 'cmake'}
+[0.016791] (ldlidar_component) Command: {'cmd': ['/usr/bin/cmake', '/home/olia/CLionProjects/ldrobot-lidar-ros2/ldlidar_component', '-DCMAKE_INSTALL_PREFIX=/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component'], 'cwd': '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_component', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'olia', 'LC_TIME': 'ru_RU.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/olia/ros2_ws/install/openslam_gmapping/lib:/home/olia/ros2_ws/install/ldlidar_component/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/olia', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/olia/CLionProjects/ldrobot-lidar-ros2/ldlidar_component', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'ROS_STATIC_PEERS': '192.168.0.199', 'SYSTEMD_EXEC_PID': '3312', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/olia/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'olia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'olia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/home/olia/anaconda3/condabin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/olia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/olia-TUF-Gaming:@/tmp/.ICE-unix/3157,unix/olia-TUF-Gaming:/tmp/.ICE-unix/3157', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/aaf29aa0_6d79_493a_bd7e_5a7107e3fd80', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.197', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '36', 'AMENT_PREFIX_PATH': '/home/olia/ros2_ws/install/slam_gmapping:/home/olia/ros2_ws/install/slam_cartogr:/home/olia/ros2_ws/install/sam_bot_description:/home/olia/ros2_ws/install/rf2o_laser_odometry:/home/olia/ros2_ws/install/openslam_gmapping:/home/olia/ros2_ws/install/ldlidar:/home/olia/ros2_ws/install/ldlidar_node:/home/olia/ros2_ws/install/ldlidar_component:/home/olia/ros2_ws/install/explore_lite:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/olia/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_component', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/olia/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/olia/ros2_ws/install/slam_gmapping:/home/olia/ros2_ws/install/slam_cartogr:/home/olia/ros2_ws/install/sam_bot_description:/home/olia/ros2_ws/install/rf2o_laser_odometry:/home/olia/ros2_ws/install/openslam_gmapping:/home/olia/ros2_ws/install/ldlidar:/home/olia/ros2_ws/install/ldlidar_node:/home/olia/ros2_ws/install/ldlidar_component:/home/olia/ros2_ws/install/explore_lite:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.043408] (ldlidar_component) StdoutLine: {'line': b'--  * Release Mode\n'}
+[0.043751] (ldlidar_component) StdoutLine: {'line': b'-- * Found ROS2 jazzy\n'}
+[0.043865] (ldlidar_component) StdoutLine: {'line': b'-- * ROS2 jazzy is officially supported by this package.\n'}
+[0.049288] (ldlidar_component) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099649] (-) TimerEvent: {}
+[0.200243] (-) TimerEvent: {}
+[0.300601] (-) TimerEvent: {}
+[0.322508] (ldlidar_component) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.400810] (-) TimerEvent: {}
+[0.501188] (-) TimerEvent: {}
+[0.529777] (ldlidar_component) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 28.1.5 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)\n'}
+[0.601339] (-) TimerEvent: {}
+[0.639708] (ldlidar_component) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.668294] (ldlidar_component) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.699262] (ldlidar_component) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.701427] (-) TimerEvent: {}
+[0.741630] (ldlidar_component) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.801630] (-) TimerEvent: {}
+[0.902272] (-) TimerEvent: {}
+[0.980319] (ldlidar_component) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.988864] (ldlidar_component) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.002478] (-) TimerEvent: {}
+[1.102892] (-) TimerEvent: {}
+[1.141751] (ldlidar_component) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.193656] (ldlidar_component) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.203137] (-) TimerEvent: {}
+[1.243457] (ldlidar_component) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.303247] (-) TimerEvent: {}
+[1.403725] (-) TimerEvent: {}
+[1.430011] (ldlidar_component) StdoutLine: {'line': b'-- Found rclcpp_components: 28.1.5 (/opt/ros/jazzy/share/rclcpp_components/cmake)\n'}
+[1.502504] (ldlidar_component) StdoutLine: {'line': b'-- Found nav2_util: 1.3.2 (/opt/ros/jazzy/share/nav2_util/cmake)\n'}
+[1.503789] (-) TimerEvent: {}
+[1.604189] (-) TimerEvent: {}
+[1.704868] (-) TimerEvent: {}
+[1.805403] (-) TimerEvent: {}
+[1.905838] (-) TimerEvent: {}
+[2.006184] (-) TimerEvent: {}
+[2.039576] (ldlidar_component) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[2.041977] (ldlidar_component) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.042230] (ldlidar_component) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.106279] (-) TimerEvent: {}
+[2.133433] (ldlidar_component) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[2.176768] (ldlidar_component) StdoutLine: {'line': b'-- Found diagnostic_msgs: 5.3.5 (/opt/ros/jazzy/share/diagnostic_msgs/cmake)\n'}
+[2.206402] (-) TimerEvent: {}
+[2.210977] (ldlidar_component) StdoutLine: {'line': b'-- Found diagnostic_updater: 4.2.1 (/opt/ros/jazzy/share/diagnostic_updater/cmake)\n'}
+[2.242728] (ldlidar_component) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.306545] (-) TimerEvent: {}
+[2.406906] (-) TimerEvent: {}
+[2.453266] (ldlidar_component) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.458662] (ldlidar_component) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.461069] (ldlidar_component) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/olia/CLionProjects/ldrobot-lidar-ros2/ldlidar_component/include;/home/olia/CLionProjects/ldrobot-lidar-ros2/ldlidar_component/tools/include;/home/olia/CLionProjects/ldrobot-lidar-ros2/ldlidar_component/component/include;/home/olia/CLionProjects/ldrobot-lidar-ros2/ldlidar_component/ldlidar_driver/include/core;/home/olia/CLionProjects/ldrobot-lidar-ros2/ldlidar_component/ldlidar_driver/include/dataprocess;/home/olia/CLionProjects/ldrobot-lidar-ros2/ldlidar_component/ldlidar_driver/include/filter;/home/olia/CLionProjects/ldrobot-lidar-ros2/ldlidar_component/ldlidar_driver/include/logger;/home/olia/CLionProjects/ldrobot-lidar-ros2/ldlidar_component/ldlidar_driver/include/networkcom;/home/olia/CLionProjects/ldrobot-lidar-ros2/ldlidar_component/ldlidar_driver/include/serialcom\n'}
+[2.461356] (ldlidar_component) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.465825] (ldlidar_component) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.466147] (ldlidar_component) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.468932] (ldlidar_component) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.474164] (ldlidar_component) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.474634] (ldlidar_component) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.476244] (ldlidar_component) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.481710] (ldlidar_component) StdoutLine: {'line': b"-- Added test 'clang_format' to check C / C++ code style\n"}
+[2.486767] (ldlidar_component) StdoutLine: {'line': b'-- Configuring done (2.5s)\n'}
+[2.507164] (-) TimerEvent: {}
+[2.530251] (ldlidar_component) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.534764] (ldlidar_component) StdoutLine: {'line': b'-- Build files have been written to: /home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_component\n'}
+[2.553424] (ldlidar_component) CommandEnded: {'returncode': 0}
+[2.554543] (ldlidar_component) JobProgress: {'identifier': 'ldlidar_component', 'progress': 'build'}
+[2.556120] (ldlidar_component) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_component', '--', '-j20', '-l20'], 'cwd': '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_component', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'olia', 'LC_TIME': 'ru_RU.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/olia/ros2_ws/install/openslam_gmapping/lib:/home/olia/ros2_ws/install/ldlidar_component/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/olia', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/olia/CLionProjects/ldrobot-lidar-ros2/ldlidar_component', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'ROS_STATIC_PEERS': '192.168.0.199', 'SYSTEMD_EXEC_PID': '3312', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/olia/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'olia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'olia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/home/olia/anaconda3/condabin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/olia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/olia-TUF-Gaming:@/tmp/.ICE-unix/3157,unix/olia-TUF-Gaming:/tmp/.ICE-unix/3157', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/aaf29aa0_6d79_493a_bd7e_5a7107e3fd80', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.197', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '36', 'AMENT_PREFIX_PATH': '/home/olia/ros2_ws/install/slam_gmapping:/home/olia/ros2_ws/install/slam_cartogr:/home/olia/ros2_ws/install/sam_bot_description:/home/olia/ros2_ws/install/rf2o_laser_odometry:/home/olia/ros2_ws/install/openslam_gmapping:/home/olia/ros2_ws/install/ldlidar:/home/olia/ros2_ws/install/ldlidar_node:/home/olia/ros2_ws/install/ldlidar_component:/home/olia/ros2_ws/install/explore_lite:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/olia/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_component', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/olia/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/olia/ros2_ws/install/slam_gmapping:/home/olia/ros2_ws/install/slam_cartogr:/home/olia/ros2_ws/install/sam_bot_description:/home/olia/ros2_ws/install/rf2o_laser_odometry:/home/olia/ros2_ws/install/openslam_gmapping:/home/olia/ros2_ws/install/ldlidar:/home/olia/ros2_ws/install/ldlidar_node:/home/olia/ros2_ws/install/ldlidar_component:/home/olia/ros2_ws/install/explore_lite:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.607428] (-) TimerEvent: {}
+[2.682680] (ldlidar_component) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object ldlidar_driver/CMakeFiles/ldlidar.dir/src/networkcom/network_socket_interface_linux.cpp.o\x1b[0m\n'}
+[2.683989] (ldlidar_component) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object ldlidar_driver/CMakeFiles/ldlidar.dir/src/dataprocess/lipkg.cpp.o\x1b[0m\n'}
+[2.684445] (ldlidar_component) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object ldlidar_driver/CMakeFiles/ldlidar.dir/src/logger/log_module.cpp.o\x1b[0m\n'}
+[2.686216] (ldlidar_component) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object ldlidar_driver/CMakeFiles/ldlidar.dir/src/filter/tofbf.cpp.o\x1b[0m\n'}
+[2.686728] (ldlidar_component) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object ldlidar_driver/CMakeFiles/ldlidar.dir/src/serialcom/serial_interface_linux.cpp.o\x1b[0m\n'}
+[2.686971] (ldlidar_component) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object ldlidar_driver/CMakeFiles/ldlidar.dir/src/core/ldlidar_driver.cpp.o\x1b[0m\n'}
+[2.707580] (-) TimerEvent: {}
+[2.808041] (-) TimerEvent: {}
+[2.908521] (-) TimerEvent: {}
+[3.009007] (-) TimerEvent: {}
+[3.109519] (-) TimerEvent: {}
+[3.210043] (-) TimerEvent: {}
+[3.310581] (-) TimerEvent: {}
+[3.411040] (-) TimerEvent: {}
+[3.511525] (-) TimerEvent: {}
+[3.612024] (-) TimerEvent: {}
+[3.712788] (-) TimerEvent: {}
+[3.813257] (-) TimerEvent: {}
+[3.913742] (-) TimerEvent: {}
+[4.014134] (-) TimerEvent: {}
+[4.114542] (-) TimerEvent: {}
+[4.183153] (ldlidar_component) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX static library libldlidar.a\x1b[0m\n'}
+[4.214711] (-) TimerEvent: {}
+[4.273247] (ldlidar_component) StdoutLine: {'line': b'[ 70%] Built target ldlidar\n'}
+[4.314870] (-) TimerEvent: {}
+[4.325738] (ldlidar_component) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_component.dir/tools/src/ldlidar_tools.cpp.o\x1b[0m\n'}
+[4.326341] (ldlidar_component) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_component.dir/component/src/ldlidar_component.cpp.o\x1b[0m\n'}
+[4.415074] (-) TimerEvent: {}
+[4.515685] (-) TimerEvent: {}
+[4.616317] (-) TimerEvent: {}
+[4.716878] (-) TimerEvent: {}
+[4.817449] (-) TimerEvent: {}
+[4.917928] (-) TimerEvent: {}
+[5.018422] (-) TimerEvent: {}
+[5.118857] (-) TimerEvent: {}
+[5.219312] (-) TimerEvent: {}
+[5.319725] (-) TimerEvent: {}
+[5.420179] (-) TimerEvent: {}
+[5.520629] (-) TimerEvent: {}
+[5.621092] (-) TimerEvent: {}
+[5.721548] (-) TimerEvent: {}
+[5.821954] (-) TimerEvent: {}
+[5.922410] (-) TimerEvent: {}
+[6.022847] (-) TimerEvent: {}
+[6.123460] (-) TimerEvent: {}
+[6.224024] (-) TimerEvent: {}
+[6.324558] (-) TimerEvent: {}
+[6.425108] (-) TimerEvent: {}
+[6.525475] (-) TimerEvent: {}
+[6.625829] (-) TimerEvent: {}
+[6.726133] (-) TimerEvent: {}
+[6.826475] (-) TimerEvent: {}
+[6.926852] (-) TimerEvent: {}
+[7.027265] (-) TimerEvent: {}
+[7.127633] (-) TimerEvent: {}
+[7.228106] (-) TimerEvent: {}
+[7.328478] (-) TimerEvent: {}
+[7.428845] (-) TimerEvent: {}
+[7.529356] (-) TimerEvent: {}
+[7.629770] (-) TimerEvent: {}
+[7.730213] (-) TimerEvent: {}
+[7.830739] (-) TimerEvent: {}
+[7.931252] (-) TimerEvent: {}
+[8.031653] (-) TimerEvent: {}
+[8.132252] (-) TimerEvent: {}
+[8.232712] (-) TimerEvent: {}
+[8.333279] (-) TimerEvent: {}
+[8.433705] (-) TimerEvent: {}
+[8.534216] (-) TimerEvent: {}
+[8.634616] (-) TimerEvent: {}
+[8.735101] (-) TimerEvent: {}
+[8.835561] (-) TimerEvent: {}
+[8.935957] (-) TimerEvent: {}
+[9.036382] (-) TimerEvent: {}
+[9.136877] (-) TimerEvent: {}
+[9.237389] (-) TimerEvent: {}
+[9.337914] (-) TimerEvent: {}
+[9.438297] (-) TimerEvent: {}
+[9.538654] (-) TimerEvent: {}
+[9.639165] (-) TimerEvent: {}
+[9.739729] (-) TimerEvent: {}
+[9.840252] (-) TimerEvent: {}
+[9.940699] (-) TimerEvent: {}
+[10.041067] (-) TimerEvent: {}
+[10.141452] (-) TimerEvent: {}
+[10.241853] (-) TimerEvent: {}
+[10.342391] (-) TimerEvent: {}
+[10.442780] (-) TimerEvent: {}
+[10.543275] (-) TimerEvent: {}
+[10.643731] (-) TimerEvent: {}
+[10.744165] (-) TimerEvent: {}
+[10.844575] (-) TimerEvent: {}
+[10.944986] (-) TimerEvent: {}
+[11.045359] (-) TimerEvent: {}
+[11.145717] (-) TimerEvent: {}
+[11.246141] (-) TimerEvent: {}
+[11.346496] (-) TimerEvent: {}
+[11.446993] (-) TimerEvent: {}
+[11.547467] (-) TimerEvent: {}
+[11.647916] (-) TimerEvent: {}
+[11.748263] (-) TimerEvent: {}
+[11.848597] (-) TimerEvent: {}
+[11.949035] (-) TimerEvent: {}
+[12.049474] (-) TimerEvent: {}
+[12.149837] (-) TimerEvent: {}
+[12.250242] (-) TimerEvent: {}
+[12.350555] (-) TimerEvent: {}
+[12.450871] (-) TimerEvent: {}
+[12.551296] (-) TimerEvent: {}
+[12.651771] (-) TimerEvent: {}
+[12.752370] (-) TimerEvent: {}
+[12.852829] (-) TimerEvent: {}
+[12.953526] (-) TimerEvent: {}
+[13.054220] (-) TimerEvent: {}
+[13.155190] (-) TimerEvent: {}
+[13.255746] (-) TimerEvent: {}
+[13.356435] (-) TimerEvent: {}
+[13.456911] (-) TimerEvent: {}
+[13.557347] (-) TimerEvent: {}
+[13.657779] (-) TimerEvent: {}
+[13.758262] (-) TimerEvent: {}
+[13.858699] (-) TimerEvent: {}
+[13.959256] (-) TimerEvent: {}
+[14.059678] (-) TimerEvent: {}
+[14.160029] (-) TimerEvent: {}
+[14.260355] (-) TimerEvent: {}
+[14.360695] (-) TimerEvent: {}
+[14.461078] (-) TimerEvent: {}
+[14.561642] (-) TimerEvent: {}
+[14.662336] (-) TimerEvent: {}
+[14.762972] (-) TimerEvent: {}
+[14.863666] (-) TimerEvent: {}
+[14.964331] (-) TimerEvent: {}
+[15.065017] (-) TimerEvent: {}
+[15.165492] (-) TimerEvent: {}
+[15.265830] (-) TimerEvent: {}
+[15.366259] (-) TimerEvent: {}
+[15.466682] (-) TimerEvent: {}
+[15.567284] (-) TimerEvent: {}
+[15.667664] (-) TimerEvent: {}
+[15.768022] (-) TimerEvent: {}
+[15.868355] (-) TimerEvent: {}
+[15.968786] (-) TimerEvent: {}
+[16.069320] (-) TimerEvent: {}
+[16.169713] (-) TimerEvent: {}
+[16.270129] (-) TimerEvent: {}
+[16.370543] (-) TimerEvent: {}
+[16.470881] (-) TimerEvent: {}
+[16.571319] (-) TimerEvent: {}
+[16.671687] (-) TimerEvent: {}
+[16.772083] (-) TimerEvent: {}
+[16.872394] (-) TimerEvent: {}
+[16.972721] (-) TimerEvent: {}
+[17.073070] (-) TimerEvent: {}
+[17.173406] (-) TimerEvent: {}
+[17.273778] (-) TimerEvent: {}
+[17.374280] (-) TimerEvent: {}
+[17.474627] (-) TimerEvent: {}
+[17.575074] (-) TimerEvent: {}
+[17.675429] (-) TimerEvent: {}
+[17.775792] (-) TimerEvent: {}
+[17.876203] (-) TimerEvent: {}
+[17.976551] (-) TimerEvent: {}
+[18.076990] (-) TimerEvent: {}
+[18.177766] (-) TimerEvent: {}
+[18.278467] (-) TimerEvent: {}
+[18.379280] (-) TimerEvent: {}
+[18.480142] (-) TimerEvent: {}
+[18.580627] (-) TimerEvent: {}
+[18.681202] (-) TimerEvent: {}
+[18.781628] (-) TimerEvent: {}
+[18.882108] (-) TimerEvent: {}
+[18.982525] (-) TimerEvent: {}
+[19.083080] (-) TimerEvent: {}
+[19.127689] (ldlidar_component) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libldlidar_component.so\x1b[0m\n'}
+[19.183156] (-) TimerEvent: {}
+[19.283560] (-) TimerEvent: {}
+[19.383922] (-) TimerEvent: {}
+[19.429607] (ldlidar_component) StdoutLine: {'line': b'[100%] Built target ldlidar_component\n'}
+[19.447085] (ldlidar_component) CommandEnded: {'returncode': 0}
+[19.484153] (-) TimerEvent: {}
+[19.500242] (ldlidar_component) JobProgress: {'identifier': 'ldlidar_component', 'progress': 'install'}
+[19.516785] (ldlidar_component) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_component'], 'cwd': '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_component', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'olia', 'LC_TIME': 'ru_RU.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/olia/ros2_ws/install/openslam_gmapping/lib:/home/olia/ros2_ws/install/ldlidar_component/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/olia', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/olia/CLionProjects/ldrobot-lidar-ros2/ldlidar_component', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'ROS_STATIC_PEERS': '192.168.0.199', 'SYSTEMD_EXEC_PID': '3312', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/olia/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'olia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'olia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/home/olia/anaconda3/condabin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/olia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/olia-TUF-Gaming:@/tmp/.ICE-unix/3157,unix/olia-TUF-Gaming:/tmp/.ICE-unix/3157', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/aaf29aa0_6d79_493a_bd7e_5a7107e3fd80', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.197', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '36', 'AMENT_PREFIX_PATH': '/home/olia/ros2_ws/install/slam_gmapping:/home/olia/ros2_ws/install/slam_cartogr:/home/olia/ros2_ws/install/sam_bot_description:/home/olia/ros2_ws/install/rf2o_laser_odometry:/home/olia/ros2_ws/install/openslam_gmapping:/home/olia/ros2_ws/install/ldlidar:/home/olia/ros2_ws/install/ldlidar_node:/home/olia/ros2_ws/install/ldlidar_component:/home/olia/ros2_ws/install/explore_lite:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/olia/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_component', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/olia/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/olia/ros2_ws/install/slam_gmapping:/home/olia/ros2_ws/install/slam_cartogr:/home/olia/ros2_ws/install/sam_bot_description:/home/olia/ros2_ws/install/rf2o_laser_odometry:/home/olia/ros2_ws/install/openslam_gmapping:/home/olia/ros2_ws/install/ldlidar:/home/olia/ros2_ws/install/ldlidar_node:/home/olia/ros2_ws/install/ldlidar_component:/home/olia/ros2_ws/install/explore_lite:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[19.529191] (ldlidar_component) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[19.529588] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/lib/libldlidar_component.so\n'}
+[19.530397] (ldlidar_component) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/lib/libldlidar_component.so" to ""\n'}
+[19.530628] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component/\n'}
+[19.530738] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//ldlidar_component.hpp\n'}
+[19.530992] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//defines.hpp\n'}
+[19.531403] (ldlidar_component) StdoutLine: {'line': b'-- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component/\n'}
+[19.531519] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//ldlidar_tools.hpp\n'}
+[19.531666] (ldlidar_component) StdoutLine: {'line': b'-- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component/\n'}
+[19.531762] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//visibility_control.hpp\n'}
+[19.531852] (ldlidar_component) StdoutLine: {'line': b'-- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component/\n'}
+[19.531936] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//ldlidar_driver.h\n'}
+[19.532024] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//ldlidar_datatype.h\n'}
+[19.532127] (ldlidar_component) StdoutLine: {'line': b'-- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component/\n'}
+[19.532399] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//lipkg.h\n'}
+[19.532648] (ldlidar_component) StdoutLine: {'line': b'-- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component/\n'}
+[19.532757] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//tofbf.h\n'}
+[19.532896] (ldlidar_component) StdoutLine: {'line': b'-- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component/\n'}
+[19.532988] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//log_module.h\n'}
+[19.533100] (ldlidar_component) StdoutLine: {'line': b'-- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component/\n'}
+[19.533254] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//network_socket_interface_linux.h\n'}
+[19.533348] (ldlidar_component) StdoutLine: {'line': b'-- Up-to-date: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component/\n'}
+[19.533456] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/include/ldlidar_component//serial_interface_linux.h\n'}
+[19.533545] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/environment/library_path.sh\n'}
+[19.533635] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/environment/library_path.dsv\n'}
+[19.533721] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ament_index/resource_index/package_run_dependencies/ldlidar_component\n'}
+[19.533808] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ament_index/resource_index/parent_prefix_path/ldlidar_component\n'}
+[19.533897] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/environment/ament_prefix_path.sh\n'}
+[19.533983] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/environment/ament_prefix_path.dsv\n'}
+[19.534084] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/environment/path.sh\n'}
+[19.534175] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/environment/path.dsv\n'}
+[19.534319] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/local_setup.bash\n'}
+[19.534398] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/local_setup.sh\n'}
+[19.534478] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/local_setup.zsh\n'}
+[19.534559] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/local_setup.dsv\n'}
+[19.534642] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/package.dsv\n'}
+[19.534722] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ament_index/resource_index/packages/ldlidar_component\n'}
+[19.534801] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ament_index/resource_index/rclcpp_components/ldlidar_component\n'}
+[19.534884] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.534963] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[19.535044] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.535139] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/cmake/ldlidar_componentConfig.cmake\n'}
+[19.535222] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/cmake/ldlidar_componentConfig-version.cmake\n'}
+[19.535299] (ldlidar_component) StdoutLine: {'line': b'-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/package.xml\n'}
+[19.537126] (ldlidar_component) CommandEnded: {'returncode': 0}
+[19.584392] (-) TimerEvent: {}
+[19.618099] (ldlidar_component) JobEnded: {'identifier': 'ldlidar_component', 'rc': 0}
+[19.619991] (ldlidar_node) JobStarted: {'identifier': 'ldlidar_node'}
+[19.637093] (ldlidar_node) JobProgress: {'identifier': 'ldlidar_node', 'progress': 'cmake'}
+[19.637457] (ldlidar_node) Command: {'cmd': ['/usr/bin/cmake', '/home/olia/CLionProjects/ldrobot-lidar-ros2/ldlidar_node', '-DCMAKE_INSTALL_PREFIX=/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node'], 'cwd': '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_node', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'olia', 'LC_TIME': 'ru_RU.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/lib:/home/olia/ros2_ws/install/openslam_gmapping/lib:/home/olia/ros2_ws/install/ldlidar_component/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/olia', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/olia/CLionProjects/ldrobot-lidar-ros2/ldlidar_component', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'ROS_STATIC_PEERS': '192.168.0.199', 'SYSTEMD_EXEC_PID': '3312', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/olia/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'olia', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'olia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/home/olia/anaconda3/condabin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/olia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/olia-TUF-Gaming:@/tmp/.ICE-unix/3157,unix/olia-TUF-Gaming:/tmp/.ICE-unix/3157', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/aaf29aa0_6d79_493a_bd7e_5a7107e3fd80', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.197', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '36', 'AMENT_PREFIX_PATH': '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component:/home/olia/ros2_ws/install/slam_gmapping:/home/olia/ros2_ws/install/slam_cartogr:/home/olia/ros2_ws/install/sam_bot_description:/home/olia/ros2_ws/install/rf2o_laser_odometry:/home/olia/ros2_ws/install/openslam_gmapping:/home/olia/ros2_ws/install/ldlidar:/home/olia/ros2_ws/install/ldlidar_node:/home/olia/ros2_ws/install/ldlidar_component:/home/olia/ros2_ws/install/explore_lite:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/olia/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_node', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/olia/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component:/home/olia/ros2_ws/install/slam_gmapping:/home/olia/ros2_ws/install/slam_cartogr:/home/olia/ros2_ws/install/sam_bot_description:/home/olia/ros2_ws/install/rf2o_laser_odometry:/home/olia/ros2_ws/install/openslam_gmapping:/home/olia/ros2_ws/install/ldlidar:/home/olia/ros2_ws/install/ldlidar_node:/home/olia/ros2_ws/install/ldlidar_component:/home/olia/ros2_ws/install/explore_lite:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[19.684615] (-) TimerEvent: {}
+[19.767824] (ldlidar_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[19.784762] (-) TimerEvent: {}
+[19.885197] (-) TimerEvent: {}
+[19.908667] (ldlidar_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[19.942551] (ldlidar_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[19.985345] (-) TimerEvent: {}
+[20.085886] (-) TimerEvent: {}
+[20.105473] (ldlidar_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[20.123882] (ldlidar_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[20.124259] (ldlidar_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[20.125115] (ldlidar_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[20.144897] (ldlidar_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[20.186012] (-) TimerEvent: {}
+[20.286439] (-) TimerEvent: {}
+[20.327184] (ldlidar_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[20.345225] (ldlidar_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[20.345595] (ldlidar_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[20.346407] (ldlidar_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[20.347517] (ldlidar_node) StdoutLine: {'line': b'--  * Release Mode\n'}
+[20.347758] (ldlidar_node) StdoutLine: {'line': b'-- * Found ROS2 jazzy\n'}
+[20.347866] (ldlidar_node) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:70 (message):\n'}
+[20.347998] (ldlidar_node) StderrLine: {'line': b'  ROS2 jazzy is not officially supported by this package.  Correct working is\n'}
+[20.348114] (ldlidar_node) StderrLine: {'line': b'  not guarantee.\n'}
+[20.348210] (ldlidar_node) StderrLine: {'line': b'\n'}
+[20.348299] (ldlidar_node) StderrLine: {'line': b'\x1b[0m\n'}
+[20.348387] (ldlidar_node) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[20.352436] (ldlidar_node) CommandEnded: {'returncode': 1}
+[20.375958] (ldlidar_node) JobEnded: {'identifier': 'ldlidar_node', 'rc': 1}
+[20.386684] (ldlidar) JobSkipped: {'identifier': 'ldlidar'}
+[20.386771] (-) TimerEvent: {}
+[20.386903] (-) EventReactorShutdown: {}

@@ -1,0 +1,338 @@
+[0.223s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.223s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x723343280f80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7233433a37a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7233433a37a0>>, mixin_verb=('build',))[0m
+[0.282s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.282s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.282s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.282s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.282s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.282s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.282s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/olia/CLionProjects/ldrobot-lidar-ros2'
+[0.283s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.283s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.283s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.283s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.283s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.283s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.283s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.283s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3d_model) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3d_model) by extension 'ignore'
+[0.330s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3d_model) by extension 'ignore_ament_install'
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3d_model) by extensions ['colcon_pkg']
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3d_model) by extension 'colcon_pkg'
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3d_model) by extensions ['colcon_meta']
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3d_model) by extension 'colcon_meta'
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3d_model) by extensions ['ros']
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3d_model) by extension 'ros'
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3d_model) by extensions ['cmake', 'python']
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3d_model) by extension 'cmake'
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3d_model) by extension 'python'
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3d_model) by extensions ['python_setup_py']
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(3d_model) by extension 'python_setup_py'
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.331s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extension 'ignore'
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extension 'ignore_ament_install'
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extensions ['colcon_pkg']
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extension 'colcon_pkg'
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extensions ['colcon_meta']
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extension 'colcon_meta'
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extensions ['ros']
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extension 'ros'
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extensions ['cmake', 'python']
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extension 'cmake'
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extension 'python'
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extensions ['python_setup_py']
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(docs) by extension 'python_setup_py'
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'ignore'
+[0.332s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'ignore_ament_install'
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extensions ['colcon_pkg']
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'colcon_pkg'
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extensions ['colcon_meta']
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'colcon_meta'
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extensions ['ros']
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'ros'
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extensions ['cmake', 'python']
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'cmake'
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'python'
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extensions ['python_setup_py']
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'python_setup_py'
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ldlidar) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ldlidar) by extension 'ignore'
+[0.334s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ldlidar) by extension 'ignore_ament_install'
+[0.334s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ldlidar) by extensions ['colcon_pkg']
+[0.334s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ldlidar) by extension 'colcon_pkg'
+[0.334s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ldlidar) by extensions ['colcon_meta']
+[0.334s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ldlidar) by extension 'colcon_meta'
+[0.334s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ldlidar) by extensions ['ros']
+[0.334s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ldlidar) by extension 'ros'
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'ldlidar' with type 'ros.ament_cmake' and name 'ldlidar'[0m
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ldlidar_component) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ldlidar_component) by extension 'ignore'
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ldlidar_component) by extension 'ignore_ament_install'
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ldlidar_component) by extensions ['colcon_pkg']
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ldlidar_component) by extension 'colcon_pkg'
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ldlidar_component) by extensions ['colcon_meta']
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ldlidar_component) by extension 'colcon_meta'
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ldlidar_component) by extensions ['ros']
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ldlidar_component) by extension 'ros'
+[0.342s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'ldlidar_component' with type 'ros.ament_cmake' and name 'ldlidar_component'[0m
+[0.342s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ldlidar_node) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ldlidar_node) by extension 'ignore'
+[0.342s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ldlidar_node) by extension 'ignore_ament_install'
+[0.342s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ldlidar_node) by extensions ['colcon_pkg']
+[0.342s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ldlidar_node) by extension 'colcon_pkg'
+[0.342s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ldlidar_node) by extensions ['colcon_meta']
+[0.343s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ldlidar_node) by extension 'colcon_meta'
+[0.343s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ldlidar_node) by extensions ['ros']
+[0.343s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(ldlidar_node) by extension 'ros'
+[0.344s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'ldlidar_node' with type 'ros.ament_cmake' and name 'ldlidar_node'[0m
+[0.344s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.344s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.344s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rules) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rules) by extension 'ignore'
+[0.344s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rules) by extension 'ignore_ament_install'
+[0.344s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rules) by extensions ['colcon_pkg']
+[0.344s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rules) by extension 'colcon_pkg'
+[0.344s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rules) by extensions ['colcon_meta']
+[0.344s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rules) by extension 'colcon_meta'
+[0.344s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rules) by extensions ['ros']
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rules) by extension 'ros'
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rules) by extensions ['cmake', 'python']
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rules) by extension 'cmake'
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rules) by extension 'python'
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rules) by extensions ['python_setup_py']
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(rules) by extension 'python_setup_py'
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts) by extension 'ignore'
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts) by extension 'ignore_ament_install'
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts) by extensions ['colcon_pkg']
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts) by extension 'colcon_pkg'
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts) by extensions ['colcon_meta']
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts) by extension 'colcon_meta'
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts) by extensions ['ros']
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts) by extension 'ros'
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts) by extensions ['cmake', 'python']
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts) by extension 'cmake'
+[0.346s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts) by extension 'python'
+[0.346s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts) by extensions ['python_setup_py']
+[0.346s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(scripts) by extension 'python_setup_py'
+[0.346s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.346s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.346s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.346s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.346s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.372s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.372s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.375s] [34mcolcon.colcon_ros.prefix_path.ament[0m [1;30mWARNING[0m [33mThe path '/home/olia/ros2_ws/install/ldlidar' in the environment variable AMENT_PREFIX_PATH doesn't exist[0m
+[0.375s] [34mcolcon.colcon_ros.prefix_path.ament[0m [1;30mWARNING[0m [33mThe path '/home/olia/ros2_ws/install/ldlidar_node' in the environment variable AMENT_PREFIX_PATH doesn't exist[0m
+[0.375s] [34mcolcon.colcon_ros.prefix_path.ament[0m [1;30mWARNING[0m [33mThe path '/home/olia/ros2_ws/install/ldlidar_component' in the environment variable AMENT_PREFIX_PATH doesn't exist[0m
+[0.375s] [34mcolcon.colcon_ros.prefix_path.catkin[0m [1;30mWARNING[0m [33mThe path '/home/olia/ros2_ws/install/ldlidar' in the environment variable CMAKE_PREFIX_PATH doesn't exist[0m
+[0.375s] [34mcolcon.colcon_ros.prefix_path.catkin[0m [1;30mWARNING[0m [33mThe path '/home/olia/ros2_ws/install/ldlidar_node' in the environment variable CMAKE_PREFIX_PATH doesn't exist[0m
+[0.375s] [34mcolcon.colcon_ros.prefix_path.catkin[0m [1;30mWARNING[0m [33mThe path '/home/olia/ros2_ws/install/ldlidar_component' in the environment variable CMAKE_PREFIX_PATH doesn't exist[0m
+[0.377s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 3 installed packages in /home/olia/CLionProjects/ldrobot-lidar-ros2/install[0m
+[0.377s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 6 installed packages in /home/olia/ros2_ws/install[0m
+[0.380s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 375 installed packages in /opt/ros/jazzy[0m
+[0.381s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.459s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ldlidar_component' build argument 'cmake_args' from command line to 'None'
+[0.459s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ldlidar_component' build argument 'cmake_target' from command line to 'None'
+[0.459s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ldlidar_component' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.459s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ldlidar_component' build argument 'cmake_clean_cache' from command line to 'False'
+[0.459s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ldlidar_component' build argument 'cmake_clean_first' from command line to 'False'
+[0.459s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ldlidar_component' build argument 'cmake_force_configure' from command line to 'False'
+[0.459s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ldlidar_component' build argument 'ament_cmake_args' from command line to 'None'
+[0.459s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ldlidar_component' build argument 'catkin_cmake_args' from command line to 'None'
+[0.459s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ldlidar_component' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.459s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ldlidar_component' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_component', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component', 'merge_install': False, 'path': '/home/olia/CLionProjects/ldrobot-lidar-ros2/ldlidar_component', 'symlink_install': False, 'test_result_base': None}[0m
+[0.460s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ldlidar_node' build argument 'cmake_args' from command line to 'None'
+[0.460s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ldlidar_node' build argument 'cmake_target' from command line to 'None'
+[0.460s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ldlidar_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.460s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ldlidar_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.460s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ldlidar_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.460s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ldlidar_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.460s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ldlidar_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.460s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ldlidar_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.460s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ldlidar_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.460s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ldlidar_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node', 'merge_install': False, 'path': '/home/olia/CLionProjects/ldrobot-lidar-ros2/ldlidar_node', 'symlink_install': False, 'test_result_base': None}[0m
+[0.460s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ldlidar' build argument 'cmake_args' from command line to 'None'
+[0.460s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ldlidar' build argument 'cmake_target' from command line to 'None'
+[0.460s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ldlidar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.460s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ldlidar' build argument 'cmake_clean_cache' from command line to 'False'
+[0.460s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ldlidar' build argument 'cmake_clean_first' from command line to 'False'
+[0.461s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ldlidar' build argument 'cmake_force_configure' from command line to 'False'
+[0.461s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ldlidar' build argument 'ament_cmake_args' from command line to 'None'
+[0.461s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ldlidar' build argument 'catkin_cmake_args' from command line to 'None'
+[0.461s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ldlidar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.461s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ldlidar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar', 'merge_install': False, 'path': '/home/olia/CLionProjects/ldrobot-lidar-ros2/ldlidar', 'symlink_install': False, 'test_result_base': None}[0m
+[0.461s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.462s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.463s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/olia/CLionProjects/ldrobot-lidar-ros2/ldlidar_component' with build type 'ament_cmake'
+[0.463s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/olia/CLionProjects/ldrobot-lidar-ros2/ldlidar_component'
+[0.465s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.466s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.466s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.481s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_component': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_component -- -j20 -l20[0m
+[0.658s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_component' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_component -- -j20 -l20[0m
+[0.731s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_component': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_component[0m
+[0.753s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ldlidar_component)
+[0.756s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_component' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_component[0m
+[0.760s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component' for CMake module files
+[0.760s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component' for CMake config files
+[0.761s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ldlidar_component', 'cmake_prefix_path')
+[0.761s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/hook/cmake_prefix_path.ps1'
+[0.762s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/hook/cmake_prefix_path.dsv'
+[0.763s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/hook/cmake_prefix_path.sh'
+[0.764s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/lib'
+[0.764s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ldlidar_component', 'ld_library_path_lib')
+[0.765s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/hook/ld_library_path_lib.ps1'
+[0.765s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/hook/ld_library_path_lib.dsv'
+[0.766s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/hook/ld_library_path_lib.sh'
+[0.767s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/bin'
+[0.767s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/lib/pkgconfig/ldlidar_component.pc'
+[0.767s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/lib/python3.12/site-packages'
+[0.767s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/bin'
+[0.768s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/package.ps1'
+[0.769s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/package.dsv'
+[0.770s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/package.sh'
+[0.771s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/package.bash'
+[0.772s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/package.zsh'
+[0.772s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/colcon-core/packages/ldlidar_component)
+[0.836s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ldlidar_component)
+[0.836s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component' for CMake module files
+[0.837s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component' for CMake config files
+[0.837s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ldlidar_component', 'cmake_prefix_path')
+[0.838s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/hook/cmake_prefix_path.ps1'
+[0.838s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/hook/cmake_prefix_path.dsv'
+[0.839s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/hook/cmake_prefix_path.sh'
+[0.840s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/lib'
+[0.840s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ldlidar_component', 'ld_library_path_lib')
+[0.840s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/hook/ld_library_path_lib.ps1'
+[0.841s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/hook/ld_library_path_lib.dsv'
+[0.842s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/hook/ld_library_path_lib.sh'
+[0.842s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/bin'
+[0.842s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/lib/pkgconfig/ldlidar_component.pc'
+[0.843s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/lib/python3.12/site-packages'
+[0.843s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/bin'
+[0.843s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/package.ps1'
+[0.844s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/package.dsv'
+[0.845s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/package.sh'
+[0.846s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/package.bash'
+[0.847s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/ldlidar_component/package.zsh'
+[0.848s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component/share/colcon-core/packages/ldlidar_component)
+[0.849s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/olia/CLionProjects/ldrobot-lidar-ros2/ldlidar_node' with build type 'ament_cmake'
+[0.849s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/olia/CLionProjects/ldrobot-lidar-ros2/ldlidar_node'
+[0.850s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.850s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.877s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_node': CMAKE_PREFIX_PATH=/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component:/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar:/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node:/home/olia/ros2_ws/install/slam_gmapping:/home/olia/ros2_ws/install/slam_cartogr:/home/olia/ros2_ws/install/sam_bot_description:/home/olia/ros2_ws/install/rf2o_laser_odometry:/home/olia/ros2_ws/install/openslam_gmapping:/home/olia/ros2_ws/install/ldlidar:/home/olia/ros2_ws/install/ldlidar_node:/home/olia/ros2_ws/install/ldlidar_component:/home/olia/ros2_ws/install/explore_lite:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_node -- -j20 -l20[0m
+[1.033s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_node' returned '0': CMAKE_PREFIX_PATH=/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component:/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar:/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node:/home/olia/ros2_ws/install/slam_gmapping:/home/olia/ros2_ws/install/slam_cartogr:/home/olia/ros2_ws/install/sam_bot_description:/home/olia/ros2_ws/install/rf2o_laser_odometry:/home/olia/ros2_ws/install/openslam_gmapping:/home/olia/ros2_ws/install/ldlidar:/home/olia/ros2_ws/install/ldlidar_node:/home/olia/ros2_ws/install/ldlidar_component:/home/olia/ros2_ws/install/explore_lite:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_node -- -j20 -l20[0m
+[1.081s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_node': CMAKE_PREFIX_PATH=/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component:/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar:/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node:/home/olia/ros2_ws/install/slam_gmapping:/home/olia/ros2_ws/install/slam_cartogr:/home/olia/ros2_ws/install/sam_bot_description:/home/olia/ros2_ws/install/rf2o_laser_odometry:/home/olia/ros2_ws/install/openslam_gmapping:/home/olia/ros2_ws/install/ldlidar:/home/olia/ros2_ws/install/ldlidar_node:/home/olia/ros2_ws/install/ldlidar_component:/home/olia/ros2_ws/install/explore_lite:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_node[0m
+[1.103s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ldlidar_node)
+[1.103s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node' for CMake module files
+[1.104s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_node' returned '0': CMAKE_PREFIX_PATH=/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component:/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar:/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node:/home/olia/ros2_ws/install/slam_gmapping:/home/olia/ros2_ws/install/slam_cartogr:/home/olia/ros2_ws/install/sam_bot_description:/home/olia/ros2_ws/install/rf2o_laser_odometry:/home/olia/ros2_ws/install/openslam_gmapping:/home/olia/ros2_ws/install/ldlidar:/home/olia/ros2_ws/install/ldlidar_node:/home/olia/ros2_ws/install/ldlidar_component:/home/olia/ros2_ws/install/explore_lite:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar_node[0m
+[1.106s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node' for CMake config files
+[1.106s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ldlidar_node', 'cmake_prefix_path')
+[1.107s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node/share/ldlidar_node/hook/cmake_prefix_path.ps1'
+[1.108s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node/share/ldlidar_node/hook/cmake_prefix_path.dsv'
+[1.108s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node/share/ldlidar_node/hook/cmake_prefix_path.sh'
+[1.110s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node/lib'
+[1.110s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node/bin'
+[1.110s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node/lib/pkgconfig/ldlidar_node.pc'
+[1.110s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node/lib/python3.12/site-packages'
+[1.111s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node/bin'
+[1.112s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node/share/ldlidar_node/package.ps1'
+[1.113s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node/share/ldlidar_node/package.dsv'
+[1.113s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node/share/ldlidar_node/package.sh'
+[1.114s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node/share/ldlidar_node/package.bash'
+[1.115s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node/share/ldlidar_node/package.zsh'
+[1.116s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node/share/colcon-core/packages/ldlidar_node)
+[1.165s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ldlidar_node)
+[1.166s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node' for CMake module files
+[1.166s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node' for CMake config files
+[1.167s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ldlidar_node', 'cmake_prefix_path')
+[1.167s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node/share/ldlidar_node/hook/cmake_prefix_path.ps1'
+[1.168s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node/share/ldlidar_node/hook/cmake_prefix_path.dsv'
+[1.168s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node/share/ldlidar_node/hook/cmake_prefix_path.sh'
+[1.169s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node/lib'
+[1.169s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node/bin'
+[1.169s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node/lib/pkgconfig/ldlidar_node.pc'
+[1.169s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node/lib/python3.12/site-packages'
+[1.170s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node/bin'
+[1.170s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node/share/ldlidar_node/package.ps1'
+[1.171s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node/share/ldlidar_node/package.dsv'
+[1.171s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node/share/ldlidar_node/package.sh'
+[1.172s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node/share/ldlidar_node/package.bash'
+[1.173s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node/share/ldlidar_node/package.zsh'
+[1.173s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node/share/colcon-core/packages/ldlidar_node)
+[1.174s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/olia/CLionProjects/ldrobot-lidar-ros2/ldlidar' with build type 'ament_cmake'
+[1.174s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/olia/CLionProjects/ldrobot-lidar-ros2/ldlidar'
+[1.174s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.174s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.201s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar': CMAKE_PREFIX_PATH=/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node:/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component:/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar:/home/olia/ros2_ws/install/slam_gmapping:/home/olia/ros2_ws/install/slam_cartogr:/home/olia/ros2_ws/install/sam_bot_description:/home/olia/ros2_ws/install/rf2o_laser_odometry:/home/olia/ros2_ws/install/openslam_gmapping:/home/olia/ros2_ws/install/ldlidar:/home/olia/ros2_ws/install/ldlidar_node:/home/olia/ros2_ws/install/ldlidar_component:/home/olia/ros2_ws/install/explore_lite:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar -- -j20 -l20[0m
+[1.267s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node:/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component:/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar:/home/olia/ros2_ws/install/slam_gmapping:/home/olia/ros2_ws/install/slam_cartogr:/home/olia/ros2_ws/install/sam_bot_description:/home/olia/ros2_ws/install/rf2o_laser_odometry:/home/olia/ros2_ws/install/openslam_gmapping:/home/olia/ros2_ws/install/ldlidar:/home/olia/ros2_ws/install/ldlidar_node:/home/olia/ros2_ws/install/ldlidar_component:/home/olia/ros2_ws/install/explore_lite:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar -- -j20 -l20[0m
+[1.313s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar': CMAKE_PREFIX_PATH=/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node:/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component:/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar:/home/olia/ros2_ws/install/slam_gmapping:/home/olia/ros2_ws/install/slam_cartogr:/home/olia/ros2_ws/install/sam_bot_description:/home/olia/ros2_ws/install/rf2o_laser_odometry:/home/olia/ros2_ws/install/openslam_gmapping:/home/olia/ros2_ws/install/ldlidar:/home/olia/ros2_ws/install/ldlidar_node:/home/olia/ros2_ws/install/ldlidar_component:/home/olia/ros2_ws/install/explore_lite:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar[0m
+[1.338s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ldlidar)
+[1.338s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar' for CMake module files
+[1.339s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_node:/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar_component:/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar:/home/olia/ros2_ws/install/slam_gmapping:/home/olia/ros2_ws/install/slam_cartogr:/home/olia/ros2_ws/install/sam_bot_description:/home/olia/ros2_ws/install/rf2o_laser_odometry:/home/olia/ros2_ws/install/openslam_gmapping:/home/olia/ros2_ws/install/ldlidar:/home/olia/ros2_ws/install/ldlidar_node:/home/olia/ros2_ws/install/ldlidar_component:/home/olia/ros2_ws/install/explore_lite:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar[0m
+[1.340s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar' for CMake config files
+[1.340s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ldlidar', 'cmake_prefix_path')
+[1.341s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/hook/cmake_prefix_path.ps1'
+[1.342s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/hook/cmake_prefix_path.dsv'
+[1.342s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/hook/cmake_prefix_path.sh'
+[1.343s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/bin'
+[1.343s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/lib/pkgconfig/ldlidar.pc'
+[1.344s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/lib/python3.12/site-packages'
+[1.344s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/bin'
+[1.345s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/package.ps1'
+[1.345s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/package.dsv'
+[1.346s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/package.sh'
+[1.347s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/package.bash'
+[1.348s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/package.zsh'
+[1.348s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/colcon-core/packages/ldlidar)
+[1.400s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ldlidar)
+[1.401s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar' for CMake module files
+[1.402s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar' for CMake config files
+[1.402s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ldlidar', 'cmake_prefix_path')
+[1.402s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/hook/cmake_prefix_path.ps1'
+[1.403s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/hook/cmake_prefix_path.dsv'
+[1.404s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/hook/cmake_prefix_path.sh'
+[1.405s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/bin'
+[1.405s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/lib/pkgconfig/ldlidar.pc'
+[1.405s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/lib/python3.12/site-packages'
+[1.406s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/bin'
+[1.406s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/package.ps1'
+[1.407s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/package.dsv'
+[1.408s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/package.sh'
+[1.408s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/package.bash'
+[1.409s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/package.zsh'
+[1.410s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/colcon-core/packages/ldlidar)
+[1.410s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[1.411s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[1.411s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[1.411s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[1.429s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.429s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.429s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[1.453s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[1.453s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/local_setup.ps1'
+[1.455s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/_local_setup_util_ps1.py'
+[1.457s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/setup.ps1'
+[1.458s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/local_setup.sh'
+[1.459s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/_local_setup_util_sh.py'
+[1.460s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/setup.sh'
+[1.462s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/local_setup.bash'
+[1.463s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/setup.bash'
+[1.465s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/local_setup.zsh'
+[1.465s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/olia/CLionProjects/ldrobot-lidar-ros2/install/setup.zsh'

@@ -1,0 +1,21 @@
+-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/olia/CLionProjects/ldrobot-lidar-ros2/build/ldlidar
+-- Install configuration: ""
+-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ament_index/resource_index/package_run_dependencies/ldlidar
+-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ament_index/resource_index/parent_prefix_path/ldlidar
+-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/environment/ament_prefix_path.sh
+-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/environment/ament_prefix_path.dsv
+-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/environment/path.sh
+-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/environment/path.dsv
+-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/local_setup.bash
+-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/local_setup.sh
+-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/local_setup.zsh
+-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/local_setup.dsv
+-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/package.dsv
+-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ament_index/resource_index/packages/ldlidar
+-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/cmake/ldlidarConfig.cmake
+-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/cmake/ldlidarConfig-version.cmake
+-- Installing: /home/olia/CLionProjects/ldrobot-lidar-ros2/install/ldlidar/share/ldlidar/package.xml
