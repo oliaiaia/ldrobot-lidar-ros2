@@ -136,6 +136,6 @@ def generate_launch_description():
     ld.add_action(ldlidar_launch)
 
     # Start RVIZ2
-    ld.add_action(rviz2_node)
+    # ld.add_action(rviz2_node)
 
     return ld
