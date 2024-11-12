@@ -130,7 +130,7 @@ def generate_launch_description():
     ld.add_action(rf2o_odom)
 
     # Launch SLAM Toolbox node
-    # ld.add_action(slam_toolbox_node)    
+    ld.add_action(slam_toolbox_node)    
 
     # Call LDLidar launch
     ld.add_action(ldlidar_launch)
