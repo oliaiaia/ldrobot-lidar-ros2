@@ -145,7 +145,7 @@ private:
   std::shared_ptr<rclcpp_lifecycle::LifecyclePublisher<sensor_msgs::msg::LaserScan>> _scanPub;
 
   // ----> Topics
-  std::string _topicRoot = "~/";
+  std::string _topicRoot = "/";
   std::string _scanTopic = "scan";
   // <---- Topics
 
